@@ -18,6 +18,7 @@ class App extends Component {
   }
 
   render() {
+    debugger;
     // debugger;
     return (
       <div className="App">
@@ -34,7 +35,6 @@ class App extends Component {
 }
 
 const mapStateToProps = (state) => {
-  debugger;
   return { items: state.items }
 }
 
